@@ -1,0 +1,50 @@
+╔══════════════════════════════════════════════════════════════╗
+║          SAVE YOUR IMAGES - FOLLOW THESE STEPS               ║
+╚══════════════════════════════════════════════════════════════╝
+
+You have 3 images to save. Here's exactly what to do:
+
+📸 IMAGE 1: Dr. N Manna's Photo (professional photo in suit)
+   ➜ Right-click the image in chat
+   ➜ Save as: images/doctor.jpg
+   ➜ This will appear in the About section
+
+📸 IMAGE 2: Before Photo (patient with acne - darker photo)
+   ➜ Right-click the image in chat
+   ➜ Save as: images/transformation-1-before.jpg
+   ➜ This is the "before" side of the slider
+
+📸 IMAGE 3: After Photo (patient with clearer skin)
+   ➜ Right-click the image in chat
+   ➜ Save as: images/transformation-1-after.jpg
+   ➜ This is the "after" side of the slider
+
+═══════════════════════════════════════════════════════════════
+
+EXACT FILE NAMES (copy these):
+
+images/doctor.jpg
+images/transformation-1-before.jpg
+images/transformation-1-after.jpg
+
+═══════════════════════════════════════════════════════════════
+
+AFTER SAVING:
+
+1. Refresh your browser (F5)
+2. You'll see:
+   ✅ Dr. Manna's photo in About section
+   ✅ Before/After slider working with real photos
+   ✅ Professional look complete!
+
+═══════════════════════════════════════════════════════════════
+
+NEED MORE TRANSFORMATIONS?
+
+You can add more by saving additional pairs:
+- transformation-2-before.jpg & transformation-2-after.jpg
+- transformation-3-before.jpg & transformation-3-after.jpg
+
+The website will automatically show them!
+
+═══════════════════════════════════════════════════════════════

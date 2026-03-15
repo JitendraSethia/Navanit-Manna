@@ -1,0 +1,105 @@
+╔══════════════════════════════════════════════════════════════╗
+║   DR. N MANNA SPECIALTY CLINIC WEBSITE - QUICK START        ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 GET STARTED IN 3 STEPS:
+
+1️⃣  ADD IMAGES
+   - Open the "images" folder
+   - Add your photos with exact names (see images/README.md)
+   - Use image-uploader.html to help organize
+
+2️⃣  TEST LOCALLY
+   - Double-click "index.html"
+   - Website opens in your browser
+   - Test all features (slider, tabs, buttons)
+
+3️⃣  GO LIVE
+   - Upload all files to your web hosting
+   - Done! Your website is live ✅
+
+═══════════════════════════════════════════════════════════════
+
+📁 WHAT'S INCLUDED:
+
+✅ index.html          - Main website
+✅ styles.css          - All styling  
+✅ script.js           - Interactive features
+✅ images/             - Put your photos here
+✅ image-uploader.html - Helper tool
+✅ README.md           - Full documentation
+✅ SETUP-GUIDE.md      - Detailed setup
+✅ FEATURES.md         - Feature list
+
+═══════════════════════════════════════════════════════════════
+
+🎨 FEATURES:
+
+✨ Before/After slider (drag to compare)
+✨ Video reviews section
+✨ Written reviews with tabs
+✨ Google Maps integration
+✨ Click-to-call buttons
+✨ Mobile responsive
+✨ Smooth animations
+✨ Dark theme with gradients
+
+═══════════════════════════════════════════════════════════════
+
+🔧 OPTIONAL: GOOGLE REVIEWS AUTO-FETCH
+
+Want reviews to update automatically from Google Maps?
+
+Option A - PHP (for shared hosting):
+  1. Get Google API key
+  2. Edit api-reviews.php
+  3. Upload to server
+
+Option B - Node.js (for VPS):
+  1. Run: npm install
+  2. Copy .env.example to .env
+  3. Add API key to .env
+  4. Run: npm start
+
+See SETUP-GUIDE.md for detailed instructions.
+
+═══════════════════════════════════════════════════════════════
+
+📞 CLINIC INFO (already in website):
+
+Dr. N Manna Specialty Clinic
+1st Floor, Rittika Tower 5
+Rishra, West Bengal 712250
+Phone: 094331 27706
+Rating: 4.7★ (183 reviews)
+
+═══════════════════════════════════════════════════════════════
+
+💡 TIPS:
+
+• Use high-quality images (but compress them!)
+• Test on mobile devices
+• Update reviews regularly
+• Add more transformations as you get results
+• Keep content fresh
+
+═══════════════════════════════════════════════════════════════
+
+🆘 NEED HELP?
+
+1. Check README.md for documentation
+2. Read SETUP-GUIDE.md for detailed steps
+3. Open FEATURES.md to see what's included
+4. Use image-uploader.html to organize photos
+
+═══════════════════════════════════════════════════════════════
+
+🎉 YOU'RE ALL SET!
+
+Open index.html in your browser to see your website.
+Add images to make it complete.
+Upload to hosting to go live.
+
+Good luck! 🚀
+
+═══════════════════════════════════════════════════════════════

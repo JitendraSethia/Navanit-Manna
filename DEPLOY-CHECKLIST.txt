@@ -1,0 +1,93 @@
+╔══════════════════════════════════════════════════════════════╗
+║           DEPLOY YOUR WEBSITE - SIMPLE CHECKLIST            ║
+╚══════════════════════════════════════════════════════════════╝
+
+BEFORE YOU DEPLOY:
+═══════════════════════════════════════════════════════════════
+
+☐ Save doctor's photo as: images/doctor.jpg
+☐ Save before photo as: images/transformation-1-before.jpg
+☐ Save after photo as: images/transformation-1-after.jpg
+☐ Test website locally (open index.html)
+☐ Check all images load correctly
+☐ Test before/after slider works
+
+═══════════════════════════════════════════════════════════════
+
+DEPLOY TO NETLIFY (EASIEST - 2 MINUTES):
+═══════════════════════════════════════════════════════════════
+
+1. ☐ Go to: https://app.netlify.com/drop
+
+2. ☐ Drag the entire "N Manna" folder to the page
+
+3. ☐ Wait 30 seconds for upload
+
+4. ☐ Get your link (example: https://abc123.netlify.app)
+
+5. ☐ (Optional) Sign up to customize URL
+
+6. ☐ Change site name to: dr-n-manna-clinic
+
+7. ☐ New URL: https://dr-n-manna-clinic.netlify.app
+
+═══════════════════════════════════════════════════════════════
+
+AFTER DEPLOYMENT:
+═══════════════════════════════════════════════════════════════
+
+☐ Open your live website
+☐ Test on mobile phone
+☐ Check all buttons work
+☐ Test click-to-call
+☐ Verify images load
+☐ Test before/after slider
+☐ Check Google Maps works
+
+═══════════════════════════════════════════════════════════════
+
+SHARE YOUR WEBSITE:
+═══════════════════════════════════════════════════════════════
+
+☐ Add to Google My Business
+☐ Share on WhatsApp
+☐ Post on Facebook/Instagram
+☐ Add to business cards
+☐ Email to existing patients
+☐ Add to email signature
+
+═══════════════════════════════════════════════════════════════
+
+OPTIONAL UPGRADES:
+═══════════════════════════════════════════════════════════════
+
+☐ Buy custom domain (drmannaclinic.com)
+☐ Set up Google Reviews API
+☐ Add more transformation photos
+☐ Add video reviews
+☐ Set up Google Analytics
+☐ Add online booking system
+
+═══════════════════════════════════════════════════════════════
+
+YOUR WEBSITE LINK:
+═══════════════════════════════════════════════════════════════
+
+Write your deployed URL here:
+
+https://_________________________________.netlify.app
+
+═══════════════════════════════════════════════════════════════
+
+NEED HELP?
+═══════════════════════════════════════════════════════════════
+
+📖 Read: HOSTING-GUIDE.md (detailed instructions)
+🚀 Read: DEPLOY-NOW.md (quick start)
+💡 Read: QUICKSTART.txt (overview)
+
+═══════════════════════════════════════════════════════════════
+
+🎉 CONGRATULATIONS! YOUR WEBSITE IS LIVE! 🎉
+
+═══════════════════════════════════════════════════════════════

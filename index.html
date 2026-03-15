@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. N Manna — Skin & Hair Specialist</title>
+  <meta name="description" content="Expert skin and hair care in Rishra, West Bengal. Trusted dermatologist & trichologist. Advanced LLLT therapy, acne treatment, pigmentation. 4.7★ on Google." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="ld-orb ld-orb1"></div>
+    <div class="ld-orb ld-orb2"></div>
+    <div class="ld-orb ld-orb3"></div>
+    <div class="ld-name">
+      <svg id="ld-svg" width="520" height="90" viewBox="0 0 520 90" aria-hidden="true">
+        <text id="ld-text" x="50%" y="72" text-anchor="middle">Dr. N Manna</text>
+      </svg>
+      <div class="ld-shimmer"></div>
+    </div>
+    <p class="ld-sub">Specialty Clinic</p>
+    <div class="ld-bottom">
+      <span class="ld-pct" id="ld-pct">0 %</span>
+      <div class="ld-bar-wrap"><div class="ld-bar-fill" id="ld-bar"></div></div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-wrap">
+      <a href="#hero" class="nav-logo">Dr. N Manna</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:09433127706" class="nav-book">Book Now</a>
+      <button id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mob-menu">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#results">Results</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:09433127706" class="nav-book">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="sec-dark">
+    <div class="hero-grid container">
+      <div class="hero-img-frame reveal">
+        <img src="images/doctor.jpg" alt="Dr. N Manna"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <div class="img-fallback">👨‍⚕️</div>
+        <div class="hero-chip">
+          <span class="chip-star">★</span>
+          <div>
+            <b>4.7 / 5</b>
+            <small>183 Reviews</small>
+          </div>
+        </div>
+      </div>
+      <div class="hero-text-col reveal">
+        <span class="pill">Dermatologist &amp; Trichologist</span>
+        <h1>Dr. N Manna<br><span>Specialty Clinic</span></h1>
+        <p>Expert skin and hair care with a patient-first approach. Trusted by hundreds of patients for acne, hair loss, pigmentation, and advanced LLLT therapy — right here in Rishra, West Bengal.</p>
+        <ul class="checks">
+          <li>Advanced LLLT Therapy</li>
+          <li>Proven Results</li>
+          <li>Personalised Care</li>
+        </ul>
+        <div class="hero-btns">
+          <a href="tel:09433127706" class="btn-solid">📞 Book Appointment</a>
+          <a href="#about" class="btn-ghost">Learn More</a>
+        </div>
+        <div class="trust-row">
+          <span>🏳️‍🌈 LGBTQ+ Friendly</span>
+          <span>💜 Women-Owned</span>
+          <span>♿ Accessible</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat-item"><b>183+</b><span>Happy Patients</span></div>
+    <div class="stat-item"><b>4.7★</b><span>Google Rating</span></div>
+    <div class="stat-item"><b>LLLT</b><span>Advanced Therapy</span></div>
+    <div class="stat-item"><b>100%</b><span>Dedicated Care</span></div>
+  </div>
+
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span><b>★</b>4.7 Google Rating</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Advanced LLLT Therapy</span><span class="marquee-sep">·</span>
+      <span><b>★</b>183+ Happy Patients</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Acne Treatment</span><span class="marquee-sep">·</span>
+      <span><b>★</b>Hair Regrowth Specialist</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Pigmentation Correction</span><span class="marquee-sep">·</span>
+      <span><b>★</b>Rishra, West Bengal</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>LGBTQ+ Friendly Clinic</span><span class="marquee-sep">·</span>
+      <span><b>★</b>Women-Owned Practice</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Personalised Care</span><span class="marquee-sep">·</span>
+      <!-- duplicate for seamless loop -->
+      <span><b>★</b>4.7 Google Rating</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Advanced LLLT Therapy</span><span class="marquee-sep">·</span>
+      <span><b>★</b>183+ Happy Patients</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Acne Treatment</span><span class="marquee-sep">·</span>
+      <span><b>★</b>Hair Regrowth Specialist</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Pigmentation Correction</span><span class="marquee-sep">·</span>
+      <span><b>★</b>Rishra, West Bengal</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>LGBTQ+ Friendly Clinic</span><span class="marquee-sep">·</span>
+      <span><b>★</b>Women-Owned Practice</span><span class="marquee-sep">·</span>
+      <span><b>✓</b>Personalised Care</span><span class="marquee-sep">·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="sec-dark2">
+    <div class="container two-col">
+      <div class="about-body reveal">
+        <span class="pill">About the Doctor</span>
+        <h2>Meet Dr. N Manna</h2>
+        <p>Dr. N Manna is an experienced dermatologist and trichologist based in Rishra, West Bengal. With a thorough consultation process and a genuine focus on understanding the root cause of each patient's concern, Dr. Manna has built a reputation for delivering real, lasting results.</p>
+        <p>The clinic specialises in advanced skin and hair treatments including Low-Level Laser Therapy (LLLT) for hair regrowth, acne management, pigmentation correction, and comprehensive hair care — all in a welcoming, inclusive environment.</p>
+        <div class="tag-row">
+          <span>Skin Specialist</span>
+          <span>Trichologist</span>
+          <span>LLLT Expert</span>
+          <span>Cosmetologist</span>
+        </div>
+        <a href="tel:09433127706" class="btn-solid">Book a Consultation</a>
+      </div>
+      <div class="about-img reveal">
+        <img src="images/doctor.jpg" alt="Dr. N Manna"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <div class="img-fallback">👨‍⚕️</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="sec-dark">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="pill">What We Treat</span>
+        <h2>Our Specialties</h2>
+        <p>Comprehensive skin and hair treatments tailored to you</p>
+      </div>
+      <div class="cards-grid">
+        <div class="svc-card reveal">
+          <div class="svc-ico" style="background:rgba(233,69,96,.12)">🌟</div>
+          <h3>Acne Treatment</h3>
+          <p>Advanced solutions for clear, healthy skin with proven results in weeks.</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-ico" style="background:rgba(83,52,131,.2)">💇</div>
+          <h3>Hair Loss &amp; LLLT</h3>
+          <p>Miraculous hair regrowth with Low-Level Laser Therapy — results in 15 days.</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-ico" style="background:rgba(233,69,96,.12)">✨</div>
+          <h3>Skin Care</h3>
+          <p>Personalised treatments addressing root causes for lasting, visible results.</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-ico" style="background:rgba(83,52,131,.2)">💆</div>
+          <h3>Pigmentation</h3>
+          <p>Targeted therapy for uneven skin tone, dark spots, and discolouration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS / TRANSFORMATIONS -->
+  <section id="results" class="sec-dark2">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="pill">Before &amp; After</span>
+        <h2>Real Results, Real People</h2>
+        <p>Drag the slider to reveal the transformation</p>
+      </div>
+      <div class="compare-grid">
+        <div class="reveal">
+          <div class="cmp-wrap" id="cmp1">
+            <img class="cmp-before" src="images/transformation-1-before.jpg" alt="Before"
+              onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22450%22%3E%3Crect fill=%22%231a1a2e%22 width=%22600%22 height=%22450%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2228%22 fill=%22%23a89880%22%3EBefore%3C/text%3E%3C/svg%3E'" />
+            <div class="cmp-after-wrap">
+              <img class="cmp-after" src="images/transformation-1-after.jpg" alt="After"
+                onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22450%22%3E%3Crect fill=%22%2316213e%22 width=%22600%22 height=%22450%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2228%22 fill=%22%23e94560%22%3EAfter%3C/text%3E%3C/svg%3E'" />
+            </div>
+            <div class="cmp-handle">
+              <div class="cmp-line"></div>
+              <div class="cmp-btn">⇔</div>
+            </div>
+            <span class="lbl-b">Before</span>
+            <span class="lbl-a">After</span>
+          </div>
+          <p class="cmp-cap">Acne Treatment — 3 months</p>
+        </div>
+        <div class="reveal">
+          <div class="cmp-wrap" id="cmp2">
+            <img class="cmp-before" src="images/transformation-2-before.jpg" alt="Before"
+              onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22450%22%3E%3Crect fill=%22%231a1a2e%22 width=%22600%22 height=%22450%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2228%22 fill=%22%23a89880%22%3EBefore%3C/text%3E%3C/svg%3E'" />
+            <div class="cmp-after-wrap">
+              <img class="cmp-after" src="images/transformation-2-after.jpg" alt="After"
+                onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22450%22%3E%3Crect fill=%22%2316213e%22 width=%22600%22 height=%22450%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Inter%22 font-size=%2228%22 fill=%22%23e94560%22%3EAfter%3C/text%3E%3C/svg%3E'" />
+            </div>
+            <div class="cmp-handle">
+              <div class="cmp-line"></div>
+              <div class="cmp-btn">⇔</div>
+            </div>
+            <span class="lbl-b">Before</span>
+            <span class="lbl-a">After</span>
+          </div>
+          <p class="cmp-cap">Hair Regrowth — LLLT Therapy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="sec-dark">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="pill">Patient Stories</span>
+        <h2>What Patients Say</h2>
+        <p>Real experiences from real people — 4.7★ on Google</p>
+      </div>
+      <div class="tab-btns">
+        <button class="tab active" data-tab="written">Written Reviews</button>
+        <button class="tab" data-tab="video">Video Reviews</button>
+      </div>
+      <div class="tab-panel active" id="tab-written">
+        <div class="rev-grid">
+          <div class="rev-card reveal">
+            <div class="rev-stars">★★★★★</div>
+            <p>"After spending a lot of money on hair loss treatments, I started with Dr Manna. It was a miraculous result — hairfall stopped within 15 days after one session of LLLT."</p>
+            <div class="rev-author">
+              <div class="rev-av">K</div>
+              <div><b>Khuku Bagchi</b><small>1 month ago</small></div>
+            </div>
+          </div>
+          <div class="rev-card reveal">
+            <div class="rev-stars">★★★★★</div>
+            <p>"Dr N Manna is experienced and the consultation was thorough. I felt a genuine focus on understanding the root cause of my skin problem. Still continuing and getting much better."</p>
+            <div class="rev-author">
+              <div class="rev-av">M</div>
+              <div><b>Mira Sengupta</b><small>1 month ago</small></div>
+            </div>
+          </div>
+          <div class="rev-card reveal">
+            <div class="rev-stars">★★★★★</div>
+            <p>"I have been a patient for years. My one-stop solution for all health problems. He is approachable and always gives patient hearing. Highly recommended."</p>
+            <div class="rev-author">
+              <div class="rev-av">P</div>
+              <div><b>Pritha Bose</b><small>1 month ago</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="rev-links">
+          <a href="https://www.google.com/maps/place/Dr.+N+Manna+Specialty+Clinic" target="_blank" class="btn-ghost">View All Google Reviews</a>
+          <a href="https://www.justdial.com/Hooghly/Dr-N-Manna-Above-Ganga-Jewellers-Rishra/9999P3211-3211-151012125616-F7C2_BZDET" target="_blank" class="btn-ghost">View JustDial Profile</a>
+        </div>
+      </div>
+      <div class="tab-panel" id="tab-video">
+        <div class="vid-grid">
+          <div class="vid-card reveal">
+            <div class="vid-thumb">
+              <img src="images/video-thumb-1.jpg" alt="Video review"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <div class="vid-fallback">🎥</div>
+              <div class="play-btn">▶</div>
+            </div>
+            <p>Patient Testimonial — Acne Treatment</p>
+          </div>
+          <div class="vid-card reveal">
+            <div class="vid-thumb">
+              <img src="images/video-thumb-2.jpg" alt="Video review"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <div class="vid-fallback">🎥</div>
+              <div class="play-btn">▶</div>
+            </div>
+            <p>Hair Loss Success Story</p>
+          </div>
+          <div class="vid-card reveal">
+            <div class="vid-thumb">
+              <img src="images/video-thumb-3.jpg" alt="Video review"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+              <div class="vid-fallback">🎥</div>
+              <div class="play-btn">▶</div>
+            </div>
+            <p>Skin Treatment Results</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="sec-dark">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="pill">Common Questions</span>
+        <h2>Frequently Asked</h2>
+        <p>Everything you need to know before your visit</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What is LLLT and how does it help with hair loss?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><p>Low-Level Laser Therapy (LLLT) uses safe, low-intensity laser light to stimulate hair follicles, improve blood circulation to the scalp, and promote regrowth. Many patients see a noticeable reduction in hair fall within just 15 days of the first session.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            Do I need an appointment or can I walk in?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><p>An appointment is recommended to ensure you get dedicated consultation time with Dr. Manna. You can call 094331 27706 to book a slot. The clinic opens at 10 AM.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How many sessions are needed for acne treatment?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><p>It varies by severity, but most patients see significant improvement within 4–8 weeks of consistent treatment. Dr. Manna focuses on identifying the root cause — hormonal, dietary, or bacterial — to create a personalised plan.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            Is the clinic accessible for people with disabilities?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><p>Yes. The clinic is wheelchair accessible and located on the 1st floor of Rittika Tower 5 with accessible entry. Free parking is also available on-site and on the street.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What skin conditions does Dr. Manna treat?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><p>Dr. Manna treats a wide range of conditions including acne, pigmentation, melasma, dark spots, uneven skin tone, hair loss (alopecia), dandruff, scalp conditions, and more. Each treatment plan is tailored to the individual patient.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="sec-dark2">
+    <div class="container two-col">
+      <div class="contact-left reveal">
+        <span class="pill">Get In Touch</span>
+        <h2>Visit Us</h2>
+        <div class="ci-list">
+          <div class="ci">
+            <span>📍</span>
+            <div>
+              <b>Address</b>
+              <p>1st Floor, Rittika Tower 5, Dr Bidhan Chandra Roy Sarani, above Ganja Jewellers, Morepukur, Subhash Nagar 2, Rishra, West Bengal 712250</p>
+            </div>
+          </div>
+          <div class="ci">
+            <span>📞</span>
+            <div>
+              <b>Phone</b>
+              <p><a href="tel:09433127706">094331 27706</a></p>
+            </div>
+          </div>
+          <div class="ci">
+            <span>🕐</span>
+            <div>
+              <b>Hours</b>
+              <p>Opens 10 AM — Appointment required</p>
+            </div>
+          </div>
+          <div class="ci">
+            <span>🅿️</span>
+            <div>
+              <b>Parking</b>
+              <p>Free street &amp; on-site parking available</p>
+            </div>
+          </div>
+          <div class="ci">
+            <span>🔗</span>
+            <div>
+              <b>Find Us Online</b>
+              <p>
+                <a href="https://www.justdial.com/Hooghly/Dr-N-Manna-Above-Ganga-Jewellers-Rishra/9999P3211-3211-151012125616-F7C2_BZDET" target="_blank">JustDial</a>
+                &nbsp;·&nbsp;
+                <a href="https://www.google.com/maps/place/Dr.+N+Manna+Specialty+Clinic" target="_blank">Google Maps</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-map reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.52!2d88.3414578!3d22.7250704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b6a7cfc6857%3A0xb5f3ee66131402e0!2sDr.%20N%20Manna%20Specialty%20Clinic!5e0!3m2!1sen!2sin!4v1"
+          title="Dr. N Manna Specialty Clinic location"
+          allowfullscreen loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="ft-inner">
+      <div class="ft-brand">
+        <b>Dr. N Manna Specialty Clinic</b>
+        <span>Teleclinica Pvt Ltd · Rishra, West Bengal</span>
+      </div>
+      <div class="ft-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#results">Results</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="ft-social">
+        <a href="https://www.justdial.com/Hooghly/Dr-N-Manna-Above-Ganga-Jewellers-Rishra/9999P3211-3211-151012125616-F7C2_BZDET" target="_blank">JustDial</a>
+        <a href="https://www.google.com/maps/place/Dr.+N+Manna+Specialty+Clinic" target="_blank">Google Maps</a>
+        <a href="tel:09433127706">Call Us</a>
+      </div>
+    </div>
+    <p class="ft-copy">© 2026 Dr. N Manna Specialty Clinic. All rights reserved.</p>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a id="wa-btn" href="https://wa.me/919433127706" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <div class="wa-pulse"></div>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

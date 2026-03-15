@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload Helper - Dr. N Manna Clinic</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .upload-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            border: 2px dashed #ddd;
+        }
+        
+        .upload-item.uploaded {
+            border-color: #10b981;
+            background: #f0fdf4;
+        }
+        
+        .upload-label {
+            flex: 1;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-btn {
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        .upload-btn:hover {
+            background: #5568d3;
+        }
+        
+        .preview {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 6px;
+            display: none;
+        }
+        
+        .preview.show {
+            display: block;
+        }
+        
+        .status {
+            font-size: 0.9rem;
+            color: #10b981;
+            display: none;
+        }
+        
+        .status.show {
+            display: block;
+        }
+        
+        .instructions {
+            background: #fff3cd;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .instructions h3 {
+            color: #856404;
+            margin-bottom: 0.5rem;
+        }
+        
+        .instructions p {
+            color: #856404;
+            line-height: 1.6;
+        }
+        
+        .download-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background: #10b981;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 2rem;
+        }
+        
+        .download-btn:hover {
+            background: #059669;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📸 Image Upload Helper</h1>
+        <p class="subtitle">Organize and prepare images for Dr. N Manna's website</p>
+        
+        <div class="instructions">
+            <h3>📋 Instructions</h3>
+            <p>1. Click "Choose File" for each image type below<br>
+               2. Select the appropriate image from your computer<br>
+               3. Preview will show once uploaded<br>
+               4. Create an "images" folder in your website directory<br>
+               5. Save all images with the exact names shown below</p>
+        </div>
+        
+        <div class="section">
+            <h2>👨‍⚕️ Doctor Photo</h2>
+            <div class="upload-item" data-filename="doctor.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">doctor.jpg - Professional photo of Dr. N Manna</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>✨ Before/After Transformations</h2>
+            <div class="upload-item" data-filename="transformation-1-before.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">transformation-1-before.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="transformation-1-after.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">transformation-1-after.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="transformation-2-before.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">transformation-2-before.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="transformation-2-after.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">transformation-2-after.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="transformation-3-before.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">transformation-3-before.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="transformation-3-after.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">transformation-3-after.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎥 Video Review Thumbnails</h2>
+            <div class="upload-item" data-filename="video-thumb-1.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">video-thumb-1.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="video-thumb-2.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">video-thumb-2.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+            <div class="upload-item" data-filename="video-thumb-3.jpg">
+                <img class="preview" alt="Preview">
+                <span class="upload-label">video-thumb-3.jpg</span>
+                <input type="file" class="file-input" accept="image/*">
+                <button class="upload-btn">Choose File</button>
+                <span class="status">✓ Uploaded</span>
+            </div>
+        </div>
+        
+        <button class="download-btn" onclick="alert('Save all images to an \'images\' folder in your website directory with the exact filenames shown above!')">
+            💾 Download Instructions
+        </button>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.upload-item').forEach(item => {
+            const btn = item.querySelector('.upload-btn');
+            const input = item.querySelector('.file-input');
+            const preview = item.querySelector('.preview');
+            const status = item.querySelector('.status');
+            
+            btn.addEventListener('click', () => {
+                input.click();
+            });
+            
+            input.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        preview.src = e.target.result;
+                        preview.classList.add('show');
+                        status.classList.add('show');
+                        item.classList.add('uploaded');
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
